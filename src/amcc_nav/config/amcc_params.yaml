@@ -1,0 +1,11 @@
+amcc_detector:
+  ros__parameters:
+    search_radius: 2.5
+    inv_amcc_threshold: 0.45
+    delta_in: 1.2
+    delta_out: 2.2
+    max_scan_range: 10.0
+
+hybrid_map_builder:
+  ros__parameters:
+    vertex_merge_distance: 1.5
